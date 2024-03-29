@@ -11,12 +11,13 @@ publish = false
 [dev-dependencies]
 divan = "0.1.14"
 
-[lints.clippy]
-complexity = "deny"
-
 [[bench]]
 name = "test"
 harness = false
+
+[lints.clippy]
+complexity = "deny"
+
 
 nursery = { level = "deny", priority = -1 }
 redundant_pub_crate = "allow"
