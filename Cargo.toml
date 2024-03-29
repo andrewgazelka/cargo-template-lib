@@ -8,6 +8,9 @@ publish = false
 
 [dependencies]
 
+[dev-dependencies]
+divan = "0.1.14"
+
 [lints.clippy]
 complexity = "deny"
 
