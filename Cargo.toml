@@ -18,9 +18,7 @@ harness = false
 [lints.clippy]
 complexity = "deny"
 
-
 nursery = { level = "deny", priority = -1 }
-redundant_pub_crate = "allow"
 
 pedantic = "deny"
 perf = "deny"
