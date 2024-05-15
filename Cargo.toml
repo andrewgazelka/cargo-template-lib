@@ -8,19 +8,10 @@ publish = false
 
 [dependencies]
 
-[dev-dependencies]
-divan = "0.1.14"
-
-[[bench]]
-name = "test"
-harness = false
-
 [lints.clippy]
-complexity = "deny"
-
+complexity = { level = "deny", priority = -1 }
 nursery = { level = "deny", priority = -1 }
-
-pedantic = "deny"
-perf = "deny"
-style = "deny"
-suspicious = "deny"
+pedantic = { level = "deny", priority = -1 }
+perf = { level = "deny", priority = -1 }
+style = { level = "deny", priority = -1 }
+suspicious = { level = "deny", priority = -1 }
